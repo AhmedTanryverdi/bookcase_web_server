@@ -1,0 +1,28 @@
+{
+  "name": "bookcase-web-server",
+  "version": "1.0.0",
+  "description": "Server of web application for learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write 'src/**/*.{ts,js}'"
+  },
+  "author": "Ahmed Tanryverdiev",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
